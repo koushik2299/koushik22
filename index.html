@@ -1,71 +1,46 @@
 <html>
-  <head>
-    <title>
-      Koushik
-    </title>
-    <h1>Hello</h1>
-    <style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: right;
-}
-      .header {
-   position: fixed;
-   left: 100;
-   bottom: 100;
-   width: 100%;
-   text-align: left;
-}
-div.a {
-  text-transform: uppercase;
-      }
-    </style>
-    <div class ="header">
-    <p>30/07/2019</p>
-    </div>
-  </head>
-  <body>
+    <head>
+<style type="text/css">
+    div{
+           text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         color: rgb(22, 21, 21);
+    }
+    #round{
+        color:dodgerblue;
+    }
+    #round1{
+        text-align: left;
+    }
+</style>
+    </head>
+    <body>
+<h1>
+    <table>
+    <th colspan="3">
+    <div>Create your account</th></div>
+    <tr>
+    <label><td>
+        <div id="round">Username:  </td></div>
+        <td><input type="text" name="username" placeholder="myusername" /></td>
+        </label>
+    </tr>
     <br>
-    <br>
-    <p>
-     <font face = "Times New Roman">
-       <font color ="#EE3A14">
-           <p align="center"><div class="a">
-     Sachin Ramesh Tendulkar born (24 April 1973) is a former Indian international cricketer 
-      and a former captain of the Indian national team.<span style="color:black"> He is widely regarded as one of the greatest batsman in the history of cricket.
-             </span> He is the highest run scorer of all time in International cricket.<br>
-      Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent 
-         Mumbai domestically and India internationally for close to twenty-four years.<br></div><br>
-         <br>
-             <font size="6">This is some text!</font>
-      </font>
-       </font>
-    </p>
-    </p>
-  <img src="C:/Users/18BCD7088/Desktop/html/download.jpg" alt="Sachin" width="500" height="333">
-  <br>
-  <br>
-  <a href="http://www.google.com"> Search the web with Google! </a>
-<button onclick="this.innerHTML=Date()">The time is: </button>
-  <div class="footer">
-  <p>17:10</p>
-</div>
-  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="smiley.gif" alt="Smiley" width="32" height="32">
-  <script>
-function bigImg(x) {
-  x.style.height = "64px";
-  x.style.width = "64px";
-}
-
-function normalImg(x) {
-  x.style.height = "32px";
-  x.style.width = "32px";
-}
-</script>
-  
-    
-  </body>
+    <tr>
+            <label>
+            <td><div id="round"> Password:  </td></div>
+            <td><input type="password" name="password" placeholder="mypassword" /></td>
+        </label></tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+               <div id="round1"> <input type = "submit" value = "Validate"></div>
+            </td>
+        </tr>
+    </table>
+        <br>
+        <div><a href="https://www.google.co.in/maps/@16.4954927,80.510502,15z"><button>Get my location</button></a></div>
+</h1>
+    </body>
 </html>
